@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আরফান আলী | পেশাদার সাংবাদিক</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons (আইকনের জন্য) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 scroll-smooth">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-900">আরফান আলী</a>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-6">
+                <a href="#about" class="hover:text-blue-700 transition font-semibold">আমার সম্পর্কে</a>
+                <a href="#current" class="hover:text-blue-700 transition font-semibold">বর্তমান কর্মক্ষেত্র</a>
+                <a href="#experience" class="hover:text-blue-700 transition font-semibold">অভিজ্ঞতা</a>
+                <a href="#contact" class="hover:text-blue-700 transition font-semibold">যোগাযোগ</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden text-gray-700 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 flex flex-col p-4 space-y-3">
+            <a href="#about" class="hover:text-blue-700 font-semibold">আমার সম্পর্কে</a>
+            <a href="#current" class="hover:text-blue-700 font-semibold">বর্তমান কর্মক্ষেত্র</a>
+            <a href="#experience" class="hover:text-blue-700 font-semibold">অভিজ্ঞতা</a>
+            <a href="#contact" class="hover:text-blue-700 font-semibold">যোগাযোগ</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-900 to-indigo-800 text-white py-20 px-4">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
+            <div class="md:w-2/3 text-center md:text-left">
+                <span class="bg-blue-600 text-sm px-4 py-1.5 rounded-full uppercase tracking-wider font-semibold">পেশাদার সাংবাদিক</span>
+                <h1 class="text-4xl md:text-6xl font-extrabold mt-4 mb-3">আরফান আলী</h1>
+                <p class="text-xl text-blue-100 mb-6 leading-relaxed">
+                    শেরপুর জেলা প্রতিনিধি ও প্রতিষ্ঠাতা সভাপতি, শেরপুর সরকারি কলেজ সাংবাদিক সমিতি।
+                </p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                    <a href="#contact" class="bg-white text-blue-900 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg">যোগাযোগ করুন</a>
+                    <a href="#experience" class="border border-white/40 text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-900 transition">কাজের অভিজ্ঞতা</a>
+                </div>
+            </div>
+            <div class="md:w-1/3 flex justify-center">
+                <!-- Profile Image Placeholder -->
+                <div class="w-64 h-64 bg-blue-100 border-4 border-white rounded-full shadow-2xl flex items-center justify-center text-gray-400 overflow-hidden">
+                    <i class="fa-regular fa-user text-7xl"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-4 max-w-6xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 inline-block border-b-4 border-blue-600 pb-2">আমার সম্পর্কে</h2>
+        </div>
+        <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100">
+            <p class="text-lg leading-relaxed text-gray-700 mb-6">
+                আমি আরফান আলী। ২০২০ সালের শেষের দিকে অনলাইন নিউজ পোর্টালে কাজের মধ্য দিয়ে আমার সাংবাদিকতা জীবনের যাত্রা শুরু হয়। এরপর ক্রমান্বয়ে দেশের মূলধারার বেশ কয়েকটি প্রিন্ট ও অনলাইন গণমাধ্যমে অত্যন্ত নিষ্ঠার সাথে কাজ করে আসছি। 
+            </p>
+            <p class="text-lg leading-relaxed text-gray-700">
+                বর্তমানে শিক্ষা বান্ধব দেশের এক নাম্বার মিডিয়া হিসেবে পরিচিত "দ্য ডেইলি ক্যাম্পাস" এর সাথে যুক্ত আছি। সাংবাদিকতার পাশাপাশি তরুণদের সুস্থ সাংবাদিকতায় উদ্বুদ্ধ করতে আমি নেতৃত্ব দিচ্ছি বিভিন্ন ছাত্রসংগঠনের।
+            </p>
+        </div>
+    </section>
+
+    <!-- Current Roles Section -->
+    <section id="current" class="py-16 px-4 bg-gray-100">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 inline-block border-b-4 border-blue-600 pb-2">বর্তমান কর্মক্ষেত্র</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-sm border-t-4 border-blue-600">
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-newspaper"></i></div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">দ্য ডেইলি ক্যাম্পাস</h3>
+                    <p class="text-sm text-blue-600 font-semibold mb-3">যুক্ত আছেন: ১ মার্চ, ২০২৫ থেকে</p>
+                    <p class="text-gray-600">শিক্ষা বান্ধব দেশের এক নাম্বার মিডিয়া দ্য ডেইলি ক্যাম্পাসে সরাসরি যুক্ত হয়ে সংবাদ পরিবেশন করছি।</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-sm border-t-4 border-blue-600">
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-map-location-dot"></i></div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">শেরপুর জেলা প্রতিনিধি</h3>
+                    <p class="text-sm text-blue-600 font-semibold mb-3">জাতীয় দৈনিক ও অনলাইন পোর্টাল</p>
+                    <p class="text-gray-600">জাতীয় দৈনিক দেশ বর্তমান, জাতীয় দৈনিক দেশ বার্তা এবং অনলাইন নিউজ পোর্টাল "তরঙ্গ নিউজ"-এ জেলা প্রতিনিধি হিসেবে কর্মরত।</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border-t-4 border-blue-600">
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-users"></i></div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">প্রতিষ্ঠাতা সভাপতি</h3>
+                    <p class="text-sm text-blue-600 font-semibold mb-3">শেরপুর সরকারি কলেজ সাংবাদিক সমিতি</p>
+                    <p class="text-gray-600">শিক্ষার্থীদের মাঝে সাংবাদিকতার দক্ষতা বৃদ্ধি ও সুস্থ সাংবাদিকতার চর্চা গড়ে তোলার মূল উদ্যোক্তা।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="experience" class="py-16 px-4 max-w-6xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 inline-block border-b-4 border-blue-600 pb-2">কাজের দীর্ঘ অভিজ্ঞতা</h2>
+        </div>
+
+        <div class="relative border-l-2 border-blue-600 ml-4 md:ml-32">
+            <!-- Work 1 -->
+            <div class="mb-10 ml-6 relative">
+                <span class="absolute -left-9 bg-blue-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs">●</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded">২০২৫ - বর্তমান</span>
+                <h3 class="text-xl font-bold text-gray-900 mt-2">দ্য ডেইলি ক্যাম্পাস</h3>
+                <p class="text-gray-600 mt-1">জাতীয় পর্যায়ে শিক্ষাভিত্তিক ও সমসাময়িক খবরের নিখুঁত উপস্থাপনা।</p>
+            </div>
+
+            <!-- Work 2 -->
+            <div class="mb-10 ml-6 relative">
+                <span class="absolute -left-9 bg-blue-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs">●</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded">নিবন্ধিত গণমাধ্যম</span>
+                <h3 class="text-xl font-bold text-gray-900 mt-2">জাতীয় দৈনিক পর্যবেক্ষণ</h3>
+                <p class="text-gray-600 mt-1">নিবন্ধিত মেইনস্ট্রিম মিডিয়ার সাথে যুক্ত থেকে মাঠপর্যায়ের নানা ঘটনা উদঘাটন।</p>
+            </div>
+
+            <!-- Work 3 -->
+            <div class="mb-10 ml-6 relative">
+                <span class="absolute -left-9 bg-blue-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs">●</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded">জাতীয় গণমাধ্যম</span>
+                <h3 class="text-xl font-bold text-gray-900 mt-2">জাতীয় দৈনিক বায়ান্ন ও আওয়ার নিউজ বিডি</h3>
+                <p class="text-gray-600 mt-1">দেশের প্রথম সারির বেশ কয়েকটি অনলাইন ও প্রিন্ট গণমাধ্যমে সংবাদ পরিবেশন।</p>
+            </div>
+
+            <!-- Work 4 -->
+            <div class="mb-10 ml-6 relative">
+                <span class="absolute -left-9 bg-blue-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs">●</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded">ইংরেজি দৈনিক</span>
+                <h3 class="text-xl font-bold text-gray-900 mt-2">দ্য পিপলস (The Peoples)</h3>
+                <p class="text-gray-600 mt-1">ইংরেজি দৈনিক পত্রিকার মাধ্যমে বৈশ্বিক ও জাতীয় খবরগুলো ইংরেজি ভাষায় তুলে ধরা।</p>
+            </div>
+
+            <!-- Work 5 -->
+            <div class="mb-10 ml-6 relative">
+                <span class="absolute -left-9 bg-blue-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs">●</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded">২০২০ (অবশেষে)</span>
+                <h3 class="text-xl font-bold text-gray-900 mt-2">অনলাইন পোর্টাল থেকে যাত্রা শুরু</h3>
+                <p class="text-gray-600 mt-1">২০২০ সালের শেষের দিকে অনলাইন নিউজ পোর্টালগুলোর সাথে যুক্ত হওয়ার মাধ্যমে সাংবাদিকতার হাতেখড়ি।</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-900 text-white py-16 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8 inline-block border-b-4 border-blue-500 pb-2">আমার সাথে যোগাযোগ</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 text-left mb-12">
+                <div class="space-y-6">
+                    <!-- Email Contact -->
+                    <div class="bg-gray-800 p-5 rounded-lg flex items-center space-x-4">
+                        <div class="bg-blue-600 p-3 rounded-full text-xl w-12 h-12 flex items-center justify-center">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div>
+                            <p class="text-gray-400 text-sm">ইমেইল ঠিকানা</p>
+                            <a href="mailto:arfanali606034@gmail.com" class="text-lg font-semibold text-blue-300 hover:underline">arfanali606034@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp Contact -->
+                    <div class="bg-gray-800 p-5 rounded-lg flex items-center space-x-4">
+                        <div class="bg-emerald-600 p-3 rounded-full text-xl w-12 h-12 flex items-center justify-center">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <p class="text-gray-400 text-sm">হোয়াটসঅ্যাপ নম্বর</p>
+                            <a href="https://wa.me/8801328320768" target="_blank" rel="noopener noreferrer" class="text-lg font-semibold text-emerald-400 hover:underline">০১৩২৮-৩২০৭৬৮</a>
+                        </div>
+                    </div>
+
+                    <!-- Facebook Contact -->
+                    <div class="bg-gray-800 p-5 rounded-lg flex items-center space-x-4">
+                        <div class="bg-blue-600 p-3 rounded-full text-xl w-12 h-12 flex items-center justify-center">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div>
+                            <p class="text-gray-400 text-sm">ফেসবুক প্রোফাইল</p>
+                            <a href="https://www.facebook.com/arfan.ali.01328320768" target="_blank" rel="noopener noreferrer" class="text-lg font-semibold text-blue-300 hover:underline">আরফান আলী (ফেসবুক)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <form id="contact-form" class="space-y-4">
+                        <div>
+                            <input 
+                                type="text" 
+                                id="name"
+                                placeholder="আপনার নাম" 
+                                class="w-full p-3 bg-gray-700 rounded text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                                required 
+                            >
+                        </div>
+                        <div>
+                            <input 
+                                type="email" 
+                                id="email"
+                                placeholder="আপনার ইমেইল" 
+                                class="w-full p-3 bg-gray-700 rounded text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                                required 
+                            >
+                        </div>
+                        <div>
+                            <textarea 
+                                id="message"
+                                placeholder="আপনার বার্তা..." 
+                                rows="4" 
+                                class="w-full p-3 bg-gray-700 rounded text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                                required 
+                            ></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 transition text-white font-bold py-3 rounded">
+                            বার্তা পাঠান
+                        </button>
+                    </form>
+                    <div id="success-msg" class="hidden mt-4 p-3 bg-green-800 text-green-100 rounded text-center">
+                        আপনার বার্তাটি সফলভাবে পাঠানো হয়েছে!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-500 py-8 text-center border-t border-gray-800">
+        <p class="text-sm">সর্বস্বত্ব সংরক্ষিত © ২০২৬ আরফান আলী।</p>
+    </footer>
+
+    <!-- Mobile Menu script and Form script -->
+    <script>
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close menu when clicking link
+        const links = mobileMenu.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Contact Form Submit
+        const form = document.getElementById('contact-form');
+        const successMsg = document.getElementById('success-msg');
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            successMsg.classList.remove('hidden');
+            form.reset();
+            setTimeout(() => {
+                successMsg.classList.add('hidden');
+            }, 4000);
+        });
+    </script>
+</body>
+</html>
